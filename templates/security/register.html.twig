@@ -1,0 +1,22 @@
+{% extends 'base.html.twig' %}
+{%trans_default_domain 'Translator'%}
+{% block title %}{{"user.title.signup" | trans}}{% endblock %}
+
+{% block body %}
+    <div class="container-fluid">
+        <div class="col-md-8 offset-2">
+            <img src="{{ asset('Pictures/register-background.png') }}" class="background-register" alt="">
+            <div class="form-register">
+                <h1>{{"user.title.signup" | trans}}</h1>
+                {{ form_start(form) }}
+                {{ form_row(form.firstname) }}
+                {{ form_row(form.lastname) }}
+                {{ form_row(form.email) }}
+                {{ form_row(form.password) }}
+                {{ form_row(form.submit) }}
+                {{ form_end(form) }}
+            </div>
+        </div>
+    </div>
+{% endblock %}
+

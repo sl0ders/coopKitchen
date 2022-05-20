@@ -1,0 +1,21 @@
+user:
+  subscription:
+    success: "Votre inscription a bien été prise en compte"
+    form:
+      label:
+        passwordsNotMatch: "Les mots de passe ne correspondent pas !"
+        firstname: "Prenom"
+        lastname: "Nom de famille"
+        password: "Mot de passe"
+        passwordReapeat: "Confirmation de mot de passe"
+        email: "Adresse email"
+    button:
+      add: "S'inscrire"
+
+    addFlash:
+      success: "Utilisateur créé avec succé"
+
+  title:
+    signup: "Page d'enregistrement"
+home:
+  title: "Page d'accueil"

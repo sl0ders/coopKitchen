@@ -1,0 +1,35 @@
+@import url(bootstrap);
+body {
+  margin: 0 auto;
+  padding: 0;
+}
+body .message-flash {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .background-register {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+body .form-register {
+  width: 700px;
+  height: 600px;
+  margin: 0 auto;
+  border: solid 2px white;
+  padding: 30px;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+}
+body .form-register h1 {
+  text-align: center;
+  font-family: Roboto, serif;
+}
+
+/*# sourceMappingURL=app.css.map */
